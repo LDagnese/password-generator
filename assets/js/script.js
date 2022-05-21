@@ -1,5 +1,14 @@
-// Assignment code here
+// arrays for each char type
 
+// Function to prompt user to input length, and required char types
+    // Need to validate and make sure that something was selected
+
+// Function that generates the password
+function generatePassword() {
+
+}
+
+// Need a function to get random element in an array
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
