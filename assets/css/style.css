@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.password {
+    border: 2px gray;
+    border-style: solid none;
+    height: 200px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.button {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.generate-password {
+    background-color: rgb(172, 9, 9);
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+
+}
+
