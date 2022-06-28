@@ -6,7 +6,7 @@ const upperCaseArr = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",
 const numbersArr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 const specialCharArr = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "+",
   "-", ".", "`", "~", "|", "<", ">", "=", "-", "_"];
-let passwordArray = [];
+
 
 // Get references to the #generate element
 let generateBtn = document.querySelector("#generate");
@@ -50,6 +50,7 @@ Then fills in the rest with a random character from a combined array
 of the required characters, to the max selected, randomizes that array
 then combines the array into string and pass back to the writePassword function */
 function generatePassword() {
+  let passwordArray = [];
   // Get Password length, if fails redo function
   let passwordLength = getPasswordLength();
 
